@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <title>Цены</title>
+    <meta charset="utf-8">
+    <title>Прайс-лист</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="logo">
-          <img src="http://placehold.it/150x100" alt="Барбершоп">
-        </div>
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Прайс-лист</a>
-            </li>
-            <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
+        <a class="header-btn logo" href="index.html">
+          <img src="http://placehold.it/150x100" alt="Barbershop">
+        </a>
+        <nav class="navigation">
+          <a class="header-btn" href="#">Информация</a>
+          <a class="header-btn" href="#">Новости</a>
+          <a class="header-btn">Прайс-лист</a>
+          <a class="header-btn" href="#">Магазин</a>
+          <a class="header-btn" href="#">Контакты</a>
         </nav>
         <div class="user-block">
-          <a class="login" href="#">Вход</a>
+          <a class="header-btn btn-log-in" href="#">Вход</a>
         </div>
       </div>
     </header>
     <main class="container">
       <h1>Прайс-лист</h1>
-      <ol class="breadcrumbs">
+      <ul class="breadcrumbs">
         <li>
-          <a href="#">Главная</a>
+          <a href="index.html">Главная</a>
         </li>
         <li>
           <a>Прайс-лист</a>
         </li>
-      </ol>
-      <p>Истинно мужская классика</p>
+      </ul>
+      <p class="title">Истинно мужская классика</p>
       <section class="producers">
         <h2>Мы используем только лучшие средства:</h2>
         <ul>
@@ -54,51 +42,78 @@
           <li>Malin+Goetz</li>
         </ul>
       </section>
-      <table class="table-price">
-        <caption>Цены на услуги наших мастеров:</caption>
-        <tr>
-          <td>Стрижка</td>
-          <td>1500 р.</td>
-        </tr>
-        <tr>
-          <td>Стрижка бороды</td>
-          <td>500 р.</td>
-        </tr>
-        <tr>
-          <td>Накрутка усов</td>
-          <td>350 р.</td>
-        </tr>
-      </table>
-      <section class="info-barbershop">
+      <section class="price-list">
+        <h2>Цены на услуги наших мастеров:</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 р.</td>
+            </tr>
+            <tr>
+              <td>Стрижка бороды</td>
+              <td>500 р.</td>
+            </tr>
+            <tr>
+              <td>Накрутка усов</td>
+              <td>350 р.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="company-info">
         <h2>Несколько слов о нас:</h2>
-        <p>Наша парикмахерская занимается исключительно мужскими стрижками.
-          Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
-          Мы не работаем на количество, мы делаем качество.</p>
-        <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку
-          можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться
-          в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+        <p>Наша парикмахерская занимается исключительно мужскими
+          стрижками. Стрижка каждого клиента для нас - это уникальная
+          и продуманная до мелочей работа. Мы не работаем на
+          количество, мы делаем качество.</p>
+        <p>Наша мастерская расположена в центре города, поэтому
+          сделать стильную стрижку можно в любое время, даже в
+          обеденный перерыв. Здесь вы можете погрузитьсяв удобную
+          для вас атмосферу, чувствовать себя комфортно и свободно!</p>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <section class="contacts">
-          <h2 hidden>Контакты</h2>
+        <div class="footer-company-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Как нас найти?</a><br>
+          <a class="company-location" href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
-        </section>
-        <section class="social">
-          <h2>Давайте дружить!</h2>
-          <a class="btn btn-vk" href="#">Вконтакте</a>
-          <a class="btn btn-fb" href="#">Фейсбук</a>
-          <a class="btn btn-inst" href="#">Инстаграм</a>
-        </section>
-        <section class="copyright">
-          <h2>Разработано:</h2>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
+        </div>
+        <div class="social">
+          <p>Давайте дружить!</p>
+          <a class="index-btn btn-vk" href="#">VKontakte</a>
+          <a class="index-btn btn-fb" href="#">Facebook</a>
+          <a class="index-btn btn-inst" href="#">Instagram</a>
+        </div>
+        <div class="copyright">
+          <p>Разработано:</p>
+          <a class="index-btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </div>
       </div>
     </footer>
+    <div class="log-in">
+      <section class="form-log-in">
+        <div class="container">
+          <h2>Личный кабинет</h2>
+          <p>Введите пожалуйста свой логин и пароль</p>
+          <form>
+            <label>
+              <input type="text" placeholder="Логин">
+            </label>
+            <label>
+              <input type="password" placeholder="Пароль">
+            </label>
+            <label>
+              <input type="checkbox" name="remember-user" checked> Запомните меня
+            </label>
+            <a class="password-recovery" href="#">Я забыл пароль!</a>
+            <button class="index-btn" type="submit">Войти</button>
+          </form>
+        </div>
+      </section>
+      <a class="btn-close" href="price.html">Закрыть</a>
+    </div>
   </body>
 </html>
