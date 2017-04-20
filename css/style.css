@@ -1,0 +1,43 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PTSans Narrow", "Arial", sans-serif;
+}
+
+.main-content h2,
+.main h1 {
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PTSans Narrow", "Arial", sans-serif;
+}
+
+.form-log-in h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PTSans Narrow", "Arial", sans-serif;
+}
+
+.products-item h2 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PTSans Narrow", "Arial", sans-serif;
+}
+
+.item-composition h2,
+.producers h2,
+.price-list h2,
+.company-info h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PTSans Narrow", "Arial", sans-serif;
+}
