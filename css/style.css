@@ -116,7 +116,7 @@ body {
 }
 
 .main-title {
-  margin: 0;
+  margin-top: 0;
   margin-bottom: 23px;
   
   font-weight: bold;
@@ -161,7 +161,6 @@ body {
 .products-item {
   display: inline-block;
   width: 220px;
-  min-height: 286px;
   margin-right: 20px;
   margin-bottom: 20px;
   vertical-align: top;
@@ -238,7 +237,7 @@ body {
 }
 
 .item-composition h2 {
-  margin: 0;
+  margin-top: 0;
   margin-bottom: 33px;
   
   font-weight: bold;
@@ -257,11 +256,21 @@ body {
 }
 
 .company {
-  margin-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.company section {
+  margin-bottom: 64px;
+}
+
+.company section:last-of-type {
+  margin-bottom: 33px;
 }
 
 .company h2{
-  margin: 0;
+  margin-top: 0;
   margin-bottom: 32px;
   
   font-weight: bold;
@@ -271,11 +280,11 @@ body {
 }
 
 .producers {
-
+  width: 320px;
 }
 
 .price-list {
-
+  width: 460px;
 }
 
 .company-info {
