@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Набор для путешествий «BAXTER OF CALIFORNIA»</title>
+    <title>Прайс-лист</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -21,10 +21,10 @@
               <a class="header-navigation-item" href="news.html">Новости</a>
             </li>
             <li>
-              <a class="header-navigation-item" href="price-list.html">Прайс-лист</a>
+              <a class="header-navigation-item active">Прайс-лист</a>
             </li>
             <li>
-              <a class="header-navigation-item active" href="shop.html">Магазин</a>
+              <a class="header-navigation-item" href="shop.html">Магазин</a>
             </li>
             <li>
               <a class="header-navigation-item" href="contacts.html">Контакты</a>
@@ -40,55 +40,67 @@
     </header>
     <main class="main">
       <div class="container">
-        <h1 class="main-title">Набор для путешествий «Baxter of California»</h1>
+        <h1 class="main-title">Прайс-лист</h1>
         <ul class="breadcrumbs">
           <li>
             <a href="index.html">Главная</a>
           </li>
           <li>
-            <a href="shop.html">Магазин</a>
-          </li>
-          <li>
-            <a href="catalog.html">Средства для ухода</a>
-          </li>
-          <li>
-            <span class="current">Набор для путешествий «Baxter of California»</span>
+            <span class="current">Прайс-лист</span>
           </li>
         </ul>
-        <section class="item">
-          <section class="item-gallery">
-            <img src="img/gallery-img-1.jpg" width="460" height="498" alt="Изображение товара">
-            <img src="img/gallery-img-2.jpg" width="140" height="149" alt="Изображение товара">
-            <img src="img/gallery-img-3.jpg" width="140" height="149" alt="Изображение товара">
-            <img src="img/gallery-img-4.jpg" width="140" height="149" alt="Изображение товара">
-          </section>
-          <section class="item-info">
-            <div class="item-stock">
-              <p class="item-availability">Есть в наличии</p>
-              <p class="item-vendor-code">Артикул: dexter-ae</p>
-            </div>
-            <p class="item-describing">Travel Kit – необходимый аксессуар во время любого
-                                       путешествия. В аккуратной кожаной сумке находится все, что
-                                       нужно для бритья и ухода за кожей во время рабочей поездки
-                                       или отдыха: средство для умывания, увлажняющий крем, крем
-                                       для бритья, крем после бритья, шампунь. Набор также может
-                                       стать отличным подарком.</p>
-            <div class="item-buying">
-              <span class="item-price">2 900 руб.</span>
-              <a class="btn item-btn" href="#">Купить</a>
-            </div>
-            <section class="item-composition">
-              <h2>В набор входят:</h2>
-              <ul>
-                <li>Средство для умывания (50 мл)</li>
-                <li>Увлажняющий крем (50 мл)</li>
-                <li>Крем для бритья (50 мл)</li>
-                <li>Крем после бритья, шампунь (50 мл)</li>
-                <li>Удобная кожаная косметичка</li>
+        <div class="inner-content">
+          <div class="big-heading">
+            <h2>Истинно мужская классика</h2>
+          </div>
+          <div class="inner-columns clearfix">
+            <div class="inner-column-left">
+              <h2>Мы используем только
+                <br>
+                  лучшие средства:
+              </h2>
+              <ul class="custom-list-1">
+                <li>Baxter of California</li>
+                <li>Mr Natty</li>
+                <li>Suavecito</li>
+                <li>Malin+Goetz</li>
               </ul>
-            </section>
-          </section>
-        </section>
+            </div>
+            <div class="inner-column-right">
+              <h2>Цены на услуги
+                <br>
+                  наших мастеров:
+              </h2>
+              <table class="prices-table">
+                <tr>
+                  <td>Стрижка</td>
+                  <td>1500 р.</td>
+                </tr>
+                <tr>
+                  <td>Стрижка бороды</td>
+                  <td>500 р.</td>
+                </tr>
+                <tr>
+                  <td>Накрутка усов</td>
+                  <td>350 р.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="inner-columns clearfix">
+            <h2>Несколько слов о нас:</h2>
+            <div class="inner-column-left">
+              <p class="short-text">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого
+                                    клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем
+                                    на количество, мы делаем качество.</p>
+            </div>
+            <div class="inner-column-right">
+              <p class="short-text">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно
+                                    в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для
+                                    вас атмосферу, чувствовать себя комфортно и свободно!</p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="footer">
@@ -129,7 +141,7 @@
       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
         <input class="icon-user" id="login" type="text" name="login" placeholder="Логин">
         <label for="login"></label>
-        <input class="icon-password" id="password" type="password"  name="password" placeholder="Пароль">
+        <input class="icon-password" id="password" type="password" name="password" placeholder="Пароль">
         <label for="password"></label>
         <label class="login-checkbox">
           <input type="checkbox" name="remember">
@@ -142,7 +154,9 @@
     </div>
     <div class="modal-content-map">
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="766" height="561" style="border:0" allowfullscreen></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426"
+        width="766" height="561" style="border:0" allowfullscreen></iframe>
     </div>
     <div class="modal-overlay"></div>
     <script src="js/scripts.js"></script>
